@@ -1,0 +1,61 @@
+.my_header {
+    margin: 35px;
+    border: 8px solid gray;
+    padding: 10px;
+    background-color: deepskyblue;
+    position: relative;
+}
+
+/*Currently this header will squish instead of staying still when made really small */
+.my_header h1 {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 40px;
+}
+
+.navigation1 {
+    margin:0px;
+    padding:0px;
+    border: 0px;
+    background-color: gray;
+    min-width: 100%;
+}
+
+.navigation {
+    padding:0px;
+    border: 0px;
+    background-color: gray;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation li{
+    display: inline;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.my_body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    border: 5px solid #6374AB;
+    padding: 15px;
+    background-color: beige;
+}
+
+.my_body p{
+    font-family: 'helvetica';
+    font-size: 16px;
+    text-align: left;
+    line-height: 25px;
+}
+
+body {
+    background-color: gainsboro;
+}
