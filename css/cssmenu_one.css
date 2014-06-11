@@ -35,7 +35,7 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
-  position: relative; /*relative puts the line a little underneath*/
+  position: relative;
   -webkit-transition: color .25s;
   -moz-transition: color .25s;
   -ms-transition: color .25s;
@@ -51,8 +51,9 @@
   width: 100%;
 }
 
-/*styling for effect*/
+
 .cssmenu_one ul li a:after {
+  /*styling for effect*/
   content: '';
   display: inline-block;
   position: absolute;
