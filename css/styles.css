@@ -17,8 +17,16 @@ h2 {
     color: dimgray;
 }
 
-.navbar{
+.navbar {
+    width: 100%;
     margin-bottom:0px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
 }
 
 .jumbotron-1{
@@ -29,17 +37,6 @@ h2 {
     display: inline-block;
     width: 100%;
 }
-
-/*
-.jumbotron-1:before{
-    content:'';
-    display: inline-block;
-    height: 100%;
-}
-
-.jumbotron-1 > .container {
-    display: inline-block;
-}*/
 
 .jumbotron-1 h1{
     color: #ffffff;
@@ -61,11 +58,6 @@ h2 {
 .featurette h2{
     text-align: center;
     font-size: 40px;
-}
-
-.col-centered{
-    float: none;
-    margin: 0 auto;
 }
 
 .bump-me{
