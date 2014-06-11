@@ -4,38 +4,67 @@
     <title>asarenski.github.io</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/cssmenu_one.css">
+
+    <!-- These are so drop-down in nav collapse can work -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
 </head>
 <body>
-    <div class="my_header">
+
+<!-- Jumbotron
+================================================== -->
+    <div class="jumbotron">
         <div class="container">
             <h1>dinomuncher</h1>
-            <h2>A Number Muncher Experience</h2>
+            <h2>A Numbermunchers Experience</h2>
         </div>
     </div>
 
-    <div class="cssmenu_one">
-      <div class="container">
-        <ul>
-            <li><a href='index.html'>Home</a></li>
-            <li><a href='requirements.html'>Requirements</a></li>
-            <li class="active"><a href='dinomuncher.html'>Dinomuncher</a></li>
-            <li class='last'><a href='contact.html'>Contact</a></li>
-        </ul>
-      </div>
+
+
+<!-- Navigation
+================================================== -->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">HOME</a>
     </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="requirements.html">REQUIREMENTS</a></li>
+        <li class="active"><a href="dinomuncher.html">DINOMUNCHER</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<!-- Main Body
+================================================== -->
     <div class="home_body">
         <div class="container">
-          <div class=row></div>
-            <div class=span9>
-            <h3>Introduction</h3>
-            <p>Monkey</p>
+            <div class="page-header">
+                <h1>Monkeys</h1>
             </div>
-          </div>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                <p>monkey
+                </p>
+                </div>
+              </div>
         </div>
     </div>
-
 </body>
 </html>
