@@ -1,74 +1,30 @@
-* {
-    margin: 0; padding: 0;
-  }
-
 .my_header {
     background-image:url("images/clouds.jpg");
     background-size: cover;
+    background-attachment:fixed;
     padding: 20px;
-    /*margin: 35px;
-    background-image:url('http://i.imgur.com/zwe4TGg.jpg');
-    border: 8px solid gray;
-    padding: 10px;
-    background-color: deepskyblue;
-    position: relative;
-    */
 }
 
 .my_header h1 {
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 40px;
-    color: ghostwhite;
-}
-
-.navigation1 {
-    margin:0px;
-    padding:0px;
-    border: 0px;
-    background-color: gray;
-    min-width: 100%;
-}
-
-.navigation {
-    padding:0px;
-    border: 0px;
-    background-color: gray;
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.navigation li{
-    display: inline;
-    font-size: 18px;
-    color: whitesmoke;
+    font-size: 43px;
     font-weight: bolder;
-    margin-left: auto;
-    padding-left: 20px;
-    padding-right: 5px;
+    color: black;
 }
 
-.my_body {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 750px;
-    border: 5px solid #6374AB;
-    padding: 15px;
-    background-color: beige;
+.my_header h2 {
+    font-weight: bolder;
+    color: dimgray;
 }
 
-.my_body p{
-    font-family: 'helvetica';
+.home_body {
+    margin-top: 50px;
+}
+
+.home_body p{
     font-size: 16px;
-    text-align: left;
     line-height: 25px;
 }
 
 body {
-    /*background-image:url("images/clouds.jpg");
-    background-size: cover;
-    */
     background-color: gainsboro;
 }
