@@ -44,18 +44,19 @@ body{
     opacity: 0.95;
 }
 
+/* this allows me to have an auto margin w good proportions*/
 @media (min-width: 768px) {
   .tot-body {
-    width: 758px;
+    width: 795px;
   }
 }
 @media (min-width: 992px) {
   .tot-body {
-    width: 982px;
+    width: 1020px;
   }
 }
 @media (min-width: 1200px) {
   .tot-body {
-    width: 1190px;
+    width: 1300px;
   }
 }
