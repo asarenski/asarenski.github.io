@@ -49,10 +49,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 .jumbotron-1 h1{
     color: #ffffff;
+    text-shadow: 1px 1px 1px #8cbccc
 }
 
 .jumbotron-1 h2{
     color: #f5f5f5;
+    text-shadow: 1px 1px 1px #8cbccc
 }
 
 .home_body {
@@ -69,6 +71,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     font-size: 40px;
 }
 
+/*not doing anything*/
 .featurette hr{
     color: #000000;
 }
