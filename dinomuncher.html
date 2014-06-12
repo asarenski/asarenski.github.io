@@ -5,12 +5,52 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- Fonts
+================================================== -->
+    <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+
     <!-- These are so drop-down in nav collapse can work -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
 </head>
 <body>
+
+<!-- Navigation
+================================================== -->
+<div class="navbar navbar-inverse">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href='index.html'>HOME</a>
+  </div>
+  <div class="navbar-collapse collapse navbar-inverse-collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="requirements.html">REQUIREMENTS</a></li>
+      <li class="active"><a href="dinomuncher.html">DINOMUNCHER</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="https://twitter.com/asarenski" class="twitter-follow-button" data-show-count="false">Follow @asarenski</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sites <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="index.html">asarenski.github.io</a></li>
+          <li><a href="https://sites.google.com/site/adamsarenskicaddesign/">CAD Design</a></li>
+          <li><a href="https://sites.google.com/site/mae451sarenski/home/-bad-design-list">MAE 451 - Mechanical Design</a></li>
+        </ul>
+      </li>
+      </ul>
+  </div>
+</div>
 
 <!-- Jumbotron
 ================================================== -->
@@ -20,37 +60,6 @@
             <h2>A Numbermunchers Experience</h2>
         </div>
     </div>
-
-
-
-<!-- Navigation
-================================================== -->
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">HOME</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="introduction.html">INTRODUCTION</a></li>
-        <li><a href="requirements.html">REQUIREMENTS</a></li>
-        <li class="active"><a href="dinomuncher.html">DINOMUNCHER</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-
 
 <!-- Main Body
 ================================================== -->
@@ -67,5 +76,29 @@
               </div>
         </div>
     </div>
+
+
+<!-- footer
+================================================== -->
+    <br><br>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <ul class="list-unstyled">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li><a href="https://twitter.com/asarenski">Twitter</a></li>
+              <li><a href="https://github.com/asarenski">GitHub</a></li>
+              <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=M7QM8QCU6VJRJ">Donate</a></li>
+            </ul>
+            <p>Made by Adam Sarenski</a>. Contact him at <a href="mailto:asarenski@gmail.com">asarenski@gmail.com</a>.</p>
+            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
 </body>
 </html>
