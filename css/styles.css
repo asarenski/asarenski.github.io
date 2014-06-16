@@ -68,3 +68,7 @@ pre {
     border: none;
     margin: 0;
 }
+
+.popover {
+    min-width: 950px;
+}
