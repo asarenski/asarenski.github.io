@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none;
+}
+
+.fa-github {
+  font-size: 24px;
+}
+
+.fa-linkedin {
+  font-size: 24px;
+}
+
+.profiles {
+  padding-left:40px;
+}
