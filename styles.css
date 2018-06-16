@@ -2,14 +2,18 @@ ul {
   list-style-type: none;
 }
 
+ul.header {
+  padding-left: 0;
+}
+
+.profiles {
+  padding-left:40px;
+}
+
 .fa-github {
   font-size: 24px;
 }
 
 .fa-linkedin {
   font-size: 24px;
-}
-
-.profiles {
-  padding-left:40px;
 }
