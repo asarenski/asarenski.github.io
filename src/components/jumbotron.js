@@ -19,11 +19,11 @@ const Jumbotron = () => {
       }}>
         <Image style={{ borderRadius: '50%', border: `1px solid ${colorPalette.border}` }} />
       </div>
-      <p style={{ textAlign: 'center', fontSize: '22px' }}>
+      <div style={{ textAlign: 'center', fontSize: '22px' }}>
         A software engineer with experience in building web applications.
         <br/>
         A self-starter with a multidisciplinary background.
-      </p>
+      </div>
     </div>
   );
 }

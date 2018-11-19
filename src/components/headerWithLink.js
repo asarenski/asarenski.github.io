@@ -12,7 +12,7 @@ const HeaderWithLink = ({ headerText, links }) => {
       marginLeft: 0,
     }}>
     {links.map(({ href, text }) => {
-      return <li>
+      return <li style={{ marginBottom: 0, }}>
         <a style={{ color: colorPalette.link }} href={href}>{text}</a>
       </li>
     })}
