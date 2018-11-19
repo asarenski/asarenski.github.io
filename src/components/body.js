@@ -5,7 +5,7 @@ import Card from './card';
 const EXAMPLE_PROJ = 'Example Projects'
 const JSFIDDLE = 'JSFiddle'
 const TOOLS = 'Tools'
-const PROFILES = 'Social'
+const PROFILES = 'Contact'
 
 const links = {
   [EXAMPLE_PROJ]: [{ href: 'https://asarenski.github.io/angular1Example', text: 'Angular1 Example' }],
