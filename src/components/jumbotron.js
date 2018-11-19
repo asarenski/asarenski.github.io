@@ -19,9 +19,10 @@ const Jumbotron = () => {
       }}>
         <Image style={{ borderRadius: '50%', border: `1px solid ${colorPalette.border}` }} />
       </div>
-      <p style={{ textAlign: 'center' }}>
-        This is a simple hero unit, a simple jumbotron-style component for calling
-        extra attention to featured content or information.
+      <p style={{ textAlign: 'center', fontSize: '22px' }}>
+        A software engineer with experience in building web applications.
+        <br/>
+        A self-starter with a multidisciplinary background.
       </p>
     </div>
   );
