@@ -12,4 +12,5 @@ export default {
   header: '#042037',
   link: '#123552',
   text: '#042037',
+  border: 'rgba(0,0,0,0.125)',
 }

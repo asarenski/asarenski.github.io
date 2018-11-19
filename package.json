@@ -15,6 +15,7 @@
     "gatsby-source-filesystem": "^2.0.4",
     "gatsby-transformer-sharp": "^2.1.4",
     "react": "^16.5.1",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
@@ -30,7 +31,8 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "build-deploy": "npm run build && npm run deploy"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
