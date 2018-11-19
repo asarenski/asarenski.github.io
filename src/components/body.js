@@ -1,10 +1,11 @@
 import React from 'react'
 import HeaderWithLink from './headerWithLink';
+import Card from './card';
 
 const EXAMPLE_PROJ = 'Example Projects'
-const JSFIDDLE = 'JSFiddle Code Examples'
+const JSFIDDLE = 'JSFiddle'
 const TOOLS = 'Tools'
-const PROFILES = 'Profiles'
+const PROFILES = 'Social'
 
 const links = {
   [EXAMPLE_PROJ]: [{ href: 'https://asarenski.github.io/angular1Example', text: 'Angular1 Example' }],
@@ -21,12 +22,21 @@ const links = {
 
 const Body = () => {
   return (
-    <>
-      <HeaderWithLink headerText={EXAMPLE_PROJ} links={links[EXAMPLE_PROJ]} />
-      <HeaderWithLink headerText={JSFIDDLE} links={links[JSFIDDLE]} />
-      <HeaderWithLink headerText={TOOLS} links={links[TOOLS]} />
-      <HeaderWithLink headerText={PROFILES} links={links[PROFILES]} />
-    </>
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      flexFlow: 'row wrap',
+    }}>
+      {
+        Object.keys(links).map(linkKey => {
+          return (
+            <Card>
+              <HeaderWithLink headerText={linkKey} links={links[linkKey]} />
+            </Card>
+          )
+        })
+      }
+    </div>
   )
 };
 export default Body

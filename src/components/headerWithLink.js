@@ -4,8 +4,13 @@ import colorPalette from '../constants/colorPalette';
 const HeaderWithLink = ({ headerText, links }) => {
   return (
     <>
-    <h2>{headerText}</h2>
-    <ul style={{listStyleType: 'none'}}>
+    <h2 style={{
+      marginBottom: '1.0875rem',
+    }}>{headerText}</h2>
+    <ul style={{
+      listStyleType: 'none',
+      marginLeft: 0,
+    }}>
     {links.map(({ href, text }) => {
       return <li>
         <a style={{ color: colorPalette.link }} href={href}>{text}</a>
