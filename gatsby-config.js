@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Adam Sarenski - Software Engineer',
+    title: 'Adam Sarenski',
   },
   plugins: [
     {
@@ -13,10 +13,16 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/constants/typography.js`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'adam-sarenski-homepage',
+        short_name: 'asarenski',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
