@@ -1,16 +1,19 @@
-/* As hex codes */
 /**
- * light >> dark
- .color-primary-0 { color: #2A4F6E }
- .color-primary-1 { color: #718DA5 }
- .color-primary-2 { color: #496C89 }
- .color-primary-3 { color: #123552 }
- .color-primary-4 { color: #042037 }
+ * All typography color and hue are controlled by
+ * Typography.js, which is not in this module.
+ * https://kyleamathews.github.io/typography.js/
+ *
  */
 
+// https://flatuicolors.com/palette/us
+// const soothingBreeze = '#b2bec3' // gray
+const cityLights = '#dfe6e9' // gray
+const electronBlue = '#0984e3' // blue
+// const draculaOrchid = '#2d3436' // black
+
 export default {
-  header: '#042037',
-  link: '#123552',
-  text: '#042037',
+  header: 'white',
+  jumbotron: cityLights,
+  link: electronBlue,
   border: 'rgba(0,0,0,0.125)',
 }

@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import palette from '../constants/colorPalette';
+import colorPalette from '../constants/colorPalette';
 
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'white',
-      borderBottom: '1px solid rgba(0,0,0,0.125)',
+      background: colorPalette.header,
+      borderBottom: `1px solid ${colorPalette.border}`,
     }}
   >
     <div
@@ -16,17 +15,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: palette.header,
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <h1 style={{ margin: 0 }}>{siteTitle}</h1>
     </div>
   </div>
 )

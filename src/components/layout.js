@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import Jumbotron from './jumbotron';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,6 +19,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
+        <Jumbotron />
         <div
           style={{
             margin: '0 auto',
