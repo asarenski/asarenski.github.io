@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# asarenski.github.io development branch
+This is the development branch to build the asarenski.github.io website.
+
+## Project Overview
+This website is built using Gatsby, a powerful static site generator based on React. The project uses the Gatsby default starter boilerplate which provides essential configuration and structure for building modern websites.
+
+## 🚀 Quick Start
+1. **Development Server**
+   ```sh
+   gatsby develop
+   ```
+   - Site runs at: `http://localhost:8000`
+   - GraphQL explorer: `http://localhost:8000/___graphql`
+
+## 📁 Project Structure
+Key files and directories:
+- `/src/`: Frontend source code (components, pages, etc.)
+- `gatsby-config.js`: Main configuration file (metadata, plugins)
+- `gatsby-browser.js`: Browser-specific customizations
+- `gatsby-node.js`: Build process customizations
+- `gatsby-ssr.js`: Server-side rendering customizations
+
+## 🛠 Development Tools
+- **Prettier**: Code formatting is enforced via `.prettierrc`
+- **Package Management**: Project supports both npm (package-lock.json) and Yarn (yarn.lock)
+
+## 🚀 Deployment
+The site can be deployed to Netlify for hosting and continuous deployment.
+
+## 📚 Resources
+- [Gatsby Documentation](mdc:https:/www.gatsbyjs.org/docs)
+- [Gatsby Tutorials](mdc:https:/www.gatsbyjs.org/tutorial)
+- [Gatsby Starters](mdc:https:/www.gatsbyjs.org/docs/gatsby-starters)
