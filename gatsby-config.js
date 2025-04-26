@@ -10,6 +10,7 @@ module.exports = {
     siteUrl: 'https://asarenski.github.io/',
   },
   plugins: [
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
