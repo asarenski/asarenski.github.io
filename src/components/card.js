@@ -10,6 +10,7 @@ const Card = ({ children }) => {
       boxShadow: '0 1px 2px 0 rgba(0,0,0,0.2)',
       padding: '1.45rem',
       margin: '0.543rem',
+      color: colorPalette.cardText,
     }}>
       {children}
     </div>

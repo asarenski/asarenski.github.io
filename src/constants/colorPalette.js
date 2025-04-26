@@ -3,18 +3,29 @@
  * Typography.js, which is not in this module.
  * https://kyleamathews.github.io/typography.js/
  *
+ * Color palette
+ * https://coolors.co/531cb3-944bbb-aa7bc3-cc92c2-dba8ac
+ * 531CB3
+ * 944BBB
+ * AA7BC3
+ * CC92C2
+ * DBA8AC
  */
 
-// color adobe
-// https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=1&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.8359421278561068,0.7354085324044554,1,0.884169090537485,0.8839831608196197,0.91,0.6842544668494852,0.795660365555102,1,0.6397121542264083,0.8323097162055173,0.91,0.6314688576137668,1,0.9713463141953877&swatchOrder=0,1,2,3,4
-const electronBlue = '#0984e3' // blue
-const wildRobinLight = 'rgba(174,203,255,0.4)'
-const linkWeed = '#E1E1E8' // gray green
+const white = '#FFFFFF'
+const chryslerBlue = '#531CB3'
+// const purpleDark = '#944BBB'
+const purpleLight = '#AA7BC3'
+const lilac = '#CC92C2'
+// const teaRose = '#DBA8AC'
 
-export default {
-  header: 'white',
-  jumbotron: wildRobinLight,
-  link: electronBlue,
+const colorPalette = {
+  header: white,
+  jumbotron: purpleLight,
+  link: lilac,
   border: 'rgba(0,0,0,0.125)',
-  card: linkWeed,
+  card: chryslerBlue,
+  cardText: white,
 }
+
+export default colorPalette;
