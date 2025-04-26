@@ -4,6 +4,7 @@ import Card from './card';
 
 const TOOLS = 'Tools'
 const CONTACT = 'Contact'
+const GAMES = 'Games'
 
 const links = {
   [TOOLS]: [
@@ -12,6 +13,9 @@ const links = {
   [CONTACT]: [
     { href: 'https://github.com/asarenski', text: 'github' },
     { href: 'https://www.linkedin.com/in/adamsarenski/', text: 'linkedIn' },
+  ],
+  [GAMES]: [
+    { href: 'https://asarenski.github.io/godotCraps', text: 'Craps' },
   ],
 }
 
